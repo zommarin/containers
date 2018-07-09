@@ -7,7 +7,7 @@ LABEL maintainer = "Anders Zommarin <anderd@zommarin.se>"
 
 RUN apt update && \
     apt install -y \
-    net-tools iputils-ping iproute2 ethtool dnsutils \
+    net-tools iputils-ping iproute2 ethtool dnsutils tcpdump \
     htop \
     emacs-nox \
     less
